@@ -10,8 +10,10 @@ public class CalculadoraBasica {
         double input_2 = pedirNumero("Input number 2.");
 
 
-
+        // calls every method and shows results
         System.out.println("---Resume---");
+        System.out.println("First introduced number: " + input);
+        System.out.println("Second introduced number: " + input_2);
         System.out.println("Sum: " + sumar(input, input_2));
         System.out.println("Substraction: " + restar(input, input_2));
         System.out.println("Multiplication: " + multiplicar(input, input_2));
