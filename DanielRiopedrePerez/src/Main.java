@@ -1,4 +1,4 @@
-import recursos.MyScanner;
+
 
 class Main {
     private static final MyScanner sc = new MyScanner();
