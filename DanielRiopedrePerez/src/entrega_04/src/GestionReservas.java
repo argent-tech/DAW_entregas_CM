@@ -113,7 +113,7 @@ public class GestionReservas {
 
     public static void filtroMonth() {
         int month = sc.pedirNumero("Ingrese el mes para filtrar: ");
-        if (month > 1 && month < 12) {
+        if (month >= 1 && month <= 12) {
             Reserva[] returnedReservas = obtenerReservasPorMonth(month);
             printArrayReservas(returnedReservas);
         } else {
